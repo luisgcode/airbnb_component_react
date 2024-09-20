@@ -8,7 +8,11 @@ function Card() {
       <div className="card pad-uti">
         <span className="status">SOLD OUT</span>
         <img src={experienceOne} alt="First experience" />
-        <span className="stars">⭐ 5.0 (6) - USA</span>
+        <div className="stats">
+          <span>⭐ 5.0 </span>
+          <span>(6)</span>
+          <span> USA</span>
+        </div>
         <span className="title">Life lessons with Katie Zaferes</span>
         <span className="price">
           {" "}

@@ -1,5 +1,5 @@
 .Herosection {
-  padding: 3rem 6rem;
+  padding: 3rem;
 
   h1 {
     font-size: 3.6rem;
@@ -9,5 +9,9 @@
     font-size: 1.6rem;
     max-width: 32ch;
     font-weight: light;
+  }
+
+  img {
+    padding: 0 4rem;
   }
 }
