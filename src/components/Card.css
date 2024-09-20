@@ -1,0 +1,23 @@
+.Cards {
+  .card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .status {
+      position: absolute;
+      left: 40px;
+      top: 5px;
+      background: white;
+      color: black;
+      font-weight: light;
+      padding: 0.5rem;
+      border-radius: 3px;
+    }
+
+    img {
+      width: 176px;
+      height: 235px;
+    }
+  }
+}
