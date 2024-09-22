@@ -1,23 +1,18 @@
 import "./Card.css";
 
-import experienceOne from "../images/experienceOne.png";
-
-function Card() {
+function Card(props) {
   return (
     <div className="Cards ">
-      <div className="card pad-uti">
-        <span className="status">SOLD OUT</span>
-        <img src={experienceOne} alt="First experience" />
+      <div className="card ">
+        <span className="status">{props.status}</span>
+        <img src={props.img} alt="Experiences" />
         <div className="stats">
-          <span>⭐ 5.0 </span>
-          <span>(6)</span>
-          <span> USA</span>
+          <span className="rating">{props.stars} </span>
+          <span className="number">{props.number}</span>
+          <span className="country"> {props.country}</span>
         </div>
-        <span className="title">Life lessons with Katie Zaferes</span>
-        <span className="price">
-          {" "}
-          <b> From $136 </b> / person
-        </span>
+        <span className="title">{props.title}</span>
+        <span className="price">{props.price}</span>
       </div>
     </div>
   );

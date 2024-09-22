@@ -1,4 +1,8 @@
 .Cards {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+
   .card {
     display: flex;
     flex-direction: column;
@@ -8,13 +12,22 @@
 
     .status {
       position: absolute;
-      left: 35px;
+      left: 5px;
       top: 5px;
       background: white;
       color: black;
       font-weight: light;
       padding: 0.3rem 0.5rem;
       border-radius: 3px;
+    }
+
+    .country,
+    .number {
+      color: lightgray;
+    }
+
+    .price {
+      font-weight: bold;
     }
 
     img {
