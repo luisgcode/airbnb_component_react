@@ -4,17 +4,13 @@ import Card from "./components/Card";
 
 import "./App.css";
 
-import experienceOne from "./images/experienceOne.png";
-import experienceTwo from "./images/experienceTwo.png";
-import experienceThree from "./images/experienceThree.png";
-
 import Data from "./components/Data";
 
 function App() {
   const cards = Data.map(function (item) {
     return (
       <Card
-        img={experienceOne}
+        img={item.img}
         stars={item.stats.rating}
         number={item.stats.reviewCount}
         location={item.location}

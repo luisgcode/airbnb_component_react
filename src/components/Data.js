@@ -1,3 +1,7 @@
+import experienceOne from "../images/experienceOne.png";
+import experienceTwo from "../images/experienceTwo.png";
+import experienceThree from "../images/experienceThree.png";
+
 export default [
   {
     id: 1,
@@ -5,7 +9,7 @@ export default [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores deserunt ratione eligendi commodi quo dicta maxime ducimus sint facere, sit corporis sed quam!",
     price: 123,
-    image: "experienceOne.png",
+    img: experienceOne,
     stats: {
       rating: "5.0",
       reviewCount: 6,
@@ -19,7 +23,7 @@ export default [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores deserunt ratione eligendi commodi quo dicta maxime ducimus sint facere, sit corporis sed quam!",
     price: 423,
-    image: "experienceOne.png",
+    img: experienceTwo,
     stats: {
       rating: "1.0",
       reviewCount: 1,
@@ -33,7 +37,7 @@ export default [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores deserunt ratione eligendi commodi quo dicta maxime ducimus sint facere, sit corporis sed quam!",
     price: 4523,
-    image: "experienceOne.png",
+    img: experienceThree,
     stats: {
       rating: "3.0",
       reviewCount: 1,
