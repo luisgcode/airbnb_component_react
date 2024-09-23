@@ -32,17 +32,17 @@ export default [
     openSpots: 5,
   },
   {
-    id: 3,
-    title: "New world",
+    id: 2,
+    title: "My last chance",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores deserunt ratione eligendi commodi quo dicta maxime ducimus sint facere, sit corporis sed quam!",
-    price: 4523,
-    img: experienceThree,
+    price: 423,
+    img: experienceTwo,
     stats: {
-      rating: "3.0",
+      rating: "1.0",
       reviewCount: 1,
     },
-    location: "ONLINE",
-    openSpots: 3,
+    location: "MADRID",
+    openSpots: 5,
   },
 ];
